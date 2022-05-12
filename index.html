@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200&display=swap" rel="stylesheet">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Salma Chiguer</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#about"><span>01.</span>About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects"><span>02.</span>Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact"><span>03.</span>Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/archive.html" target="_blank"><span>04.</span>Archive</a>
+                </li>
+              </ul>
+              <button class="btn my-2 my-sm-0 resume-btn">Resume</button>
+            </div>
+          </nav>
+          <!-- first page -->
+          <header>
+              <div class="intro-section container">
+                <h3>Hi, my name is</h3>
+                <h1>Salma Chiguer.</h1>
+                <h2>I'm passionate about coding.</h2>
+                <p>I'm a bootcamp graduate passionate about creating responsive websites,<br>
+                    learning new technologies and building things for the web.
+                </p>
+              </div>
+              <div class="area" >
+                <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+        </div >
+          </header>
+          <!-- second page -->
+          <main id="about">
+              <div data-aos="fade-up-right" class="about-section container">
+                  <div class="row">
+                      <div class="col-md-6">
+                        <div class="title-highlight"><h4><span>01.</span>About Me</h4></div>
+
+                        <p>Hello! My name is Salma. I'm a bootcamp graduate(2021) and I enjoy creating things for the web.
+                          I'm mainly interested in web development.</p>
+          
+                          <p>I'm passionate about learning new technologies and improving
+                              my skills. 
+                          </p>
+          
+                          <p>Here are some technologies I work with:
+                              <ul class="skills-list">
+                                  <li>JavaScript (ES6+)</li>
+                                  <li>Bootstrap</li>
+                                  <li>SASS</li>
+                                  <li>Github / Git</li>
+                              </ul>
+                          </p>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="container my-picture">
+                          </div>
+                      </div>  
+                  </div>
+              </div>
+            </main>
+            <!-- third page -->
+              <div id="projects">
+                <div class="projects-section container" data-aos="fade-up-right">
+                    <div class="title-highlight"><h4><span>02.</span>Some things I've built</h4></div>
+                    <!--first row-->
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4 project-one">
+                          <div class="card"data-aos="flip-left" >
+                            <img src="/assets/images/Untitled3.png" class="card-img-top" alt="...">
+                            <div class="card-body project-description">
+                              <h5 class="card-title"><a href="https://steady-weather-app.netlify.app/" target="_blank">a weather app</a></h5>
+                              <p class="card-text">A minimal weather app that provides real time weather through a free api.</p>
+                              <div class="tech-stack"><p>Weather API</p><p>JavaScript</p></div>
+                              <div class="github-link"><a href="http://"><img src="/assets/icons/GitHub-Mark-Light-32px.png" alt=""></a></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4 project-two">
+                          <div class="card" data-aos="flip-left">
+                            <img src="/assets/images/portfolio screenshot.png" class="card-img-top" alt="...">
+                            <div class="card-body project-description">
+                              <h5 class="card-title"><a href="" target="_blank">my portfolio</a></h5>
+                              <p class="card-text">My portfolio where I display my projects and technologies I work with.</p>
+                              <div class="tech-stack"><p>AOS</p><p>Bootstrap</p><p>SASS</p></div>
+                              <div class="github-link"><a href="http://"><img src="/assets/icons/GitHub-Mark-Light-32px.png" alt=""></a></div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2">
+                      <div class="col mb-4 project-three">
+                        <div class="card"  data-aos="flip-left">
+                          <img src="/assets/images/todolist.png" class="card-img-top" alt="...">
+                          <div class="card-body project-description">
+                            <h5 class="card-title"><a href="https://minimalist-todo-en.netlify.app" target="_blank">to do list</a></h5>
+                            <p class="card-text">a miminal todo list to practice creating CRUD apps.</p>
+                            <div class="tech-stack"><p>Vanilla JS</p></div>
+                            <div class="github-link"><a href="http://"><img src="/assets/icons/GitHub-Mark-Light-32px.png" alt=""></a></div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <!-- forth page -->
+              <div id="contact" class="text-center">
+                <div class="contact-section">
+                  <div class="section-title"><span>03.</span>What's next?</div>
+                  <h2>Get In Touch</h2>
+                  <div class="container">
+                    <p>I'm currently looking for opportunities as a front-end developer or HTML/CSS integrator. 
+                      If you're interested in working together, please reach out!
+                    </p>
+                  </div>
+                  <div class="contact-info container" id="contact-info">
+                    <a href="https://github.com/ChiguerSalma" target="_blank"><img src="/assets/icons/GitHub-Mark-Light-32px.png" alt="GitHub icon"></a>
+                    <a href="https://www.linkedin.com/in/salma-chiguer-166397228" target="_blank"><img src="/assets/icons/LI-In-Bug.png" alt="LinkedIn icon" class="contact-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-copyright text-center">
+                <p>Designed and Built by Salma Chiguer</p>
+              </div>
+
+        <!--Bootstrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--JS-->
+        <script src="/main.js"></script>
+    </body>
+</html>

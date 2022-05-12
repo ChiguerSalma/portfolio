@@ -1,0 +1,18 @@
+body {
+  background-color: #0c3b2e;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-container p {
+  color: #e0c8ac;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style2.css.map */
